@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>Reservaciones</title>
+<style>
+div {box-shadow: 0 0 2px black;}
+body {font-family: arial; margin: 0; margin-top: 120px;}
+.ashi {
+display: grid;
+grid-template-columns: 100px 1fr;
+}
+.ashilog {
+width: 70px;
+height: 70px;
+margin-left: 20px;
+border-radius: 35px;
+}
+.top {
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+height: 120px;
+background-color: #32243e;
+display: flex;
+color: white;
+align-items: center;
+}
+.dropdown-content {display: none; Position: absolute; min-width: 180px; box-shadow: 0px 0px 0px 1px rgba(0,0,0,1); background-color: white; right: 1px;}
+.dropdown-content a {padding:20px 16px; display: block; font-style: normal; color: black; text-decoration: none; font-weight: bold;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: f9e9da;}
+.menu {
+width: 40px;
+height: 4px;
+background-color: white;
+border: none;
+}
+.regresar {
+border: none;
+margin-left: 10px;
+padding: 8px;
+font-size: 14px;
+font-weight: bold;
+background-color: f9e9da;
+box-shadow: 0 0 6px black;
+border-radius: 2px;
+}
+.infobox {
+width: 50%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 218px;
+margin-bottom: 20px;
+}
+.reservar-butt {
+border: none;
+box-shadow: 0px 0px 6px black;
+margin-bottom: 50px;
+padding: 12px;
+font-size: 20px;
+border-radius: 2px;
+background-color: f9e9da;
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="top">
+<div class="ashi">
+<a href="\Hotel Ashi\hotelashi.html"><img src="\Hotel Ashi\subpaginas\images\logo.png" class="ashilog"></a>
+<h1>Hotel Ashi Ashi</h1>
+</div>
+<div style="flex: 1;">
+</div>
+<div class="dropdown" style="position: relative; ">
+<hr class="menu">
+<hr class="menu">
+<hr class="menu">
+<div class="dropdown-content">
+<a href="\Hotel Ashi\hotelashi.html">Inicio</a>
+<a href="\Hotel Ashi\subpaginas\reservacion.html">Reservar</a>
+<a href="\Hotel Ashi\subpaginas\instalaciones.html">Instalaciones</a>
+<a href="\Hotel Ashi\subpaginas\resenas.html">Reseñas</a>
+</div>
+</div>
+<div style="width: 40px;">
+</div>
+</div>
+</div>
+<div style="margin-top: 160px; text-align: center;">
+<h2>Reservacion</h2>
+</div>
+<div style="height: 20px;"></div>
+<center><div>
+<div class="infobox">
+<div style="display: flex; justify-content: center; align-items: center;">
+<h2>Cuarto<br><br>Premium</h2>
+</div>
+<center><img src="\Hotel Ashi\subpaginas\images\premium.jpg" style="width: 100%; object-fit: cover; height: 218px;"></center>
+</div>
+</div></center>
+
+<center><div style="display: grid; grid-template-columns: 1fr 1fr; width: 50%;">
+<div>
+<h4>Entrada</h4>
+<div>
+<input type="text" placeholder="Dia" style="width: 100px;">
+<input type="text" placeholder="Mes" style="width: 100px;">
+<input type="text" placeholder="Ano" style="width: 100px;">
+</div>
+<div style="margin-top: 10px;">
+<input type="text" placeholder="Hora" style="width: 152px;">
+<input type="text" placeholder="Minutos" style="width: 152px;">
+</div>
+</div>
+<div>
+<div>
+<h4>Salida</h4>
+<div>
+<input type="text" placeholder="Dia" style="width: 100px;">
+<input type="text" placeholder="Mes" style="width: 100px;">
+<input type="text" placeholder="Ano" style="width: 100px;">
+</div>
+<div style="margin-top: 10px;">
+<input type="text" placeholder="Hora" style="width: 152px;">
+<input type="text" placeholder="Minutos" style="width: 152px;">
+</div>
+</div>
+</div>
+</div></center>
+
+<center><div style="display: grid; grid-template-columns: 1fr; width: 50%; margin-top: 20px;">
+<div>
+<h4>Personas</h4>
+<div>
+<a style="margin-right: 5px;">Adultos</a><input type="text" placeholder="Cantidad" style="width: 150px;">
+</div>
+<div style="margin-top: 10px;">
+<a style="margin-right: 5px;">Ninos</a><input type="text" placeholder="Cantidad" style="width: 150px;">
+</div>
+</div>
+</div></center>
+
+<div style="text-align: center; margin-top: 50px; margin-bottom: 50px;">
+<h3>Cantidad a Pagar Por Noche</h3>
+<h3>$18,000.00</h3>
+</div>
+
+<center><a href="reservastes.html"><button class="reservar-butt">Reservar Cuarto</button></a></center>
+
+<a href="\Hotel Ashi\subpaginas\reservacion.html"><button class="regresar">&larr; Regresar</button></a>
+
+<center><h3>Telefono: 344 112 6772</h3></center>
+<marquee scrollamount="15" direction="right" behaviour=alternate style="font: 18px; font-weight: bold; background-color: #32243e; color: white; height: 50px; display: flex; align-items: center;">Insta: evelinaava</marquee>
+</body>
+</html>

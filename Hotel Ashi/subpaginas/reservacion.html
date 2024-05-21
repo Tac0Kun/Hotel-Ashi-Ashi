@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>Reservaciones</title>
+<style>
+div {box-shadow: 0 0 2px blac;}
+body {font-family: arial; margin: 0; margin-top: 120px; height: 1000px;}
+.ashi {
+display: grid;
+grid-template-columns: 100px 1fr;
+}
+.ashilog {
+width: 70px;
+height: 70px;
+margin-left: 20px;
+border-radius: 35px;
+}
+.top {
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+height: 120px;
+background-color: #32243e;
+display: flex;
+color: white;
+align-items: center;
+}
+.dropdown-content {display: none; Position: absolute; min-width: 180px; box-shadow: 0px 0px 0px 1px rgba(0,0,0,1); background-color: white; right: 1px;}
+.dropdown-content a {padding:20px 16px; display: block; font-style: normal; color: black; text-decoration: none; font-weight: bold;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: f9e9da;}
+.menu {
+width: 40px;
+height: 4px;
+background-color: white;
+border: none;
+}
+.cuarto {
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 80%;
+margin-bottom: 80px;
+}
+.hotelimg {
+width: 100%;
+object-fit: cover;
+height: 320px;
+}
+.reservar {
+padding: 10px;
+border: none;
+background-color: f9e9da;
+box-shadow: 0px 0px 4px black;
+border-radius: 2px;
+font-weight: bold;
+font-size: 14px;
+}
+</style>
+</head>
+<body>
+<div class="top">
+<div class="ashi">
+<a href="\Hotel Ashi\hotelashi.html"><img src="images\logo.png" class="ashilog"></a>
+<h1>Hotel Ashi Ashi</h1>
+</div>
+<div style="flex: 1;">
+</div>
+<div class="dropdown" style="position: relative; ">
+<hr class="menu">
+<hr class="menu">
+<hr class="menu">
+<div class="dropdown-content">
+<a href="\Hotel Ashi\hotelashi.html">Inicio</a>
+<a href="reservacion.html">Reservar</a>
+<a href="instalaciones.html">Instalaciones</a>
+<a href="resenas.html">Reseñas</a>
+</div>
+</div>
+<div style="width: 40px;">
+</div>
+</div>
+</div>
+<div style="margin-top: 160px; margin-bottom: 40px; text-align: center;">
+<h2>Selecciona que tipo de cuarto quieres.</h2>
+</div>
+<center><div class="cuarto">
+<div><img src="images\normal.png" class="hotelimg">
+</div>
+<div>
+<h3>Cuarto Normal</h3>
+<div style="text-align: left; padding-left: 20px;  margin-bottom: 80px;">
+<a><li>Cuarto tamaño normal.<br>
+<li>No viene con nada incluido.<br>
+<li>Pase para entrar al casino<br><br>
+Costo: $3,000.00 c/noche
+</div>
+<a href="reservaciones\normal.html"><button class="reservar">Reservar</button></a>
+</div>
+</div></center>
+<center><div class="cuarto">
+<div><img src="images\grande.png" class="hotelimg">
+</div>
+<div>
+<h3>Cuarto Grande</h3>
+<div style="text-align: left; padding-left: 20px;  margin-bottom: 50px;">
+<a><li>Cuarto tamaño grande.<br>
+<li>Viene con comida gratuita incluida.<br>
+<li>Pase de entrada al casino.<br>
+<li>Permiso a accesar todas las partes publicas del hotel.<br><br>
+Costo: $8,000.00 c/noche
+</div>
+<a href="reservaciones\grande.html"><button class="reservar">Reservar</button></a>
+</div>
+</div></center>
+<center><div class="cuarto">
+<div><img src="images\premium.jpg" class="hotelimg">
+</div>
+<div>
+<h3>Cuarto Premium</h3>
+<div style="text-align: left; padding-left: 20px;  margin-bottom: 30px;">
+<a><li>Cuarto casino.<br>
+<li>Viene con comida gratuita incluida.<br>
+<li>Tu cuarto esta en el casino.<br>
+<li>Permiso a accesar todas las partes publicas del hotel.<br>
+<li>Vuelo gratis si vienes de otro estado/pais.<br>
+<li>Asistentes personales.<br><br>
+Costo: $18,000.00 c/noche
+</div>
+<a href="reservaciones\premium.html"><button class="reservar">Reservar</button></a>
+</div>
+</div></center>
+<center><h3>Telefono: 344 112 6772</h3></center>
+<marquee scrollamount="15" direction="right" behaviour=alternate style="font: 18px; font-weight: bold; background-color: #32243e; color: white; height: 50px; display: flex; align-items: center;">Instagram: evelinaava</marquee>
+</body>
+</html>
